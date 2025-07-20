@@ -7,13 +7,16 @@ Welcome to my **personal portfolio website** — built to showcase my projects, 
 ## 📌 **Overview**
 This portfolio is developed using **HTML, CSS, and JavaScript**, without any frameworks — highlighting pure frontend skills and creativity.
 
-✨ The site includes:
-- Landing page with intro and photo
-- About page with auto-sliding images and personal story
-- Resume/Projects page in modern sidebar format
-- Contact page with form and quick social/contact links
+✨ The site includes:<br>
+-🏠 Landing Page: Intro and profile photo
 
-I named this project **BrickWorth** as part of my creative branding.
+-📸 About Page: Auto-sliding images + personal story
+
+-📄 Resume / Projects Page: Modern sidebar format showcasing skills & timeline
+
+-✉️ Contact Page: Form + quick social / contact links
+
+
 
 ---
 
@@ -53,13 +56,6 @@ I named this project **BrickWorth** as part of my creative branding.
 
 ---
 
-## 📬 **Connect with me**
-- 📞 +91 xxxxxxxxx
-- ✉️ ishitataneja1611@gmail.com
-- 💼 [LinkedIn](https://www.linkedin.com/in/ishita-taneja-35b911230/)
-- 📸 [Instagram](https://www.instagram.com)
-
----
 
 ## 🚀 **How to use**
 - Clone or download this repository
