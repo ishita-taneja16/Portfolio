@@ -1,0 +1,152 @@
+body{
+    background-color: cadetblue;
+    margin: 20px;
+}
+header {
+    background-color: rgb(24, 49, 49);
+    border: 1px rgb(225, 63, 63);
+    
+}
+nav {
+    background-color: rgb(24, 49, 49);
+    border: 1px rgb(225, 63, 63);
+    text-align: left;
+    padding-bottom: 0px;
+    padding-right: 20px;
+    padding-left: 40px;
+    padding-top: 10px;
+    font-size: 50px;
+    font-style: sans-serif;
+    color: aliceblue;
+    
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    text-align: left;
+    margin-left: 600px;
+    margin-top: -80px;
+ 
+}
+
+.nav-links li {
+   
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 40px;
+    padding-top: 40px;
+    font-size: 20px;
+    font-style: sans-serif;
+    color: aliceblue;
+}
+
+
+.nav-links a {
+    color: var(--text-color);
+    font-weight: 50;
+}
+
+h1{
+    text-align: center;
+    color: black ;
+    font: bold;
+    font-size: 70px;  
+
+}
+marquee{
+    border: 20px red;
+    background-color:  rgb(24, 49, 49);
+    color: rgb(209, 235, 235);
+
+}
+
+h2{
+    font-size: 50px;
+    padding-left: 200px;
+    font: bold;
+    font-weight: bolder;
+
+}
+H4{
+    font-size: 50px;
+    padding-left: 50px;
+    padding-right: 100PX;
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-bottom: 0px;
+    margin-left: 60px;
+    font: bold;
+    
+}
+h3{
+    background-color: rgb(24, 49, 49);
+    border: 1px rgb(225, 63, 63);
+    text-align: justify;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 40px;
+    padding-top: 10px;
+    font-size: 30px;
+    font-style: sans-serif;
+    color: rgb(240, 248, 255);
+    margin-right: 600px ;
+    margin-left: 200px;
+   
+}
+h5{
+    font-size: 50px;
+    font: bold; 
+}
+b{
+  font-size: 50px;
+  margin-left: -190px;
+  font: bold;  
+}
+
+        
+.container {
+    text-align: CENTER;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.hover-text {
+    display: inline-block;
+    cursor: pointer;
+    color:rgb(24, 49, 49);
+    font-weight: bold;
+    margin: 15px;
+}
+
+.canvas {
+    width: 500px;
+    height: 200px;
+    margin: 20px auto;
+    border: 8px solid black;
+    display: flex;
+    align-items: LEFT;
+    text-align: left ;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Default message */
+.message {
+    display: none;
+}
+
+/* Show message when hovering */
+.hover-text:hover ~ .canvas #message1,
+.hover-text:nth-child(1):hover ~ .canvas #message1 {
+    display: block;
+}
+
+.hover-text:hover ~ .canvas #message2,
+.hover-text:nth-child(2):hover ~ .canvas #message2 {
+    display: block;
+}
+
+.hover-text:hover ~ .canvas #message3,
+.hover-text:nth-child(3):hover ~ .canvas #message3 {
+    display: block;
+}

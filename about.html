@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .slider-container {
+            position: relative;
+            width: 1370px;
+            height: 600px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f4f4f4;
+        }
+        .slide {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+            animation: slideShow 28s infinite;
+        }
+        .slide:nth-child(1) { animation-delay: 0s; }
+        .slide:nth-child(2) { animation-delay: 4s; }
+        .slide:nth-child(3) { animation-delay: 8s; }
+        .slide:nth-child(4) { animation-delay: 12s; }
+        .slide:nth-child(5) { animation-delay: 16s; }
+        .slide:nth-child(6) { animation-delay: 20s; }
+        .slide:nth-child(7) { animation-delay: 24s; }
+
+        @keyframes slideShow {
+            0%, 100% { opacity: 0; }
+            14%, 86% { opacity: 1; }
+        }
+        .text-container {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 18px;
+            animation: textSlide 28s infinite;
+        }
+        @keyframes textSlide {
+            0%, 100% { opacity: 0; }
+            14%, 86% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <link rel="stylesheet" href="css/styles.css">
+    <div class="container">
+        <nav>
+            <div class="logo">Ishita Taneja
+            <ul class="nav-links">
+                <li><a href="first.html"> Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+   </div>
+</link>
+<div class="container">
+    
+   <b> <h1>About Me</h1></b>
+   <div class="slider-container">
+    <div class="slide">
+        <img src="ishita2.jpeg" width="50%" height="200%" alt="Nature">
+        <div class="text-container">I am Ishita, 21-year-old student.</div>
+    </div>
+    <div class="slide">
+        <img src="https://www.amity.edu/mohali/images/about-amity.jpg" width="100%" height="100%" alt="University">
+        <div class="text-container">Currently, I'm diving deep into the world of computer applications at Amity University, Punjab.</div>
+    </div>
+    <div class="slide">
+        <img src="https://images.indianexpress.com/2022/12/NL-Mohaliview-4cols.jpg?w=640" width="100%" height="100%" alt="City">
+        <div class="text-container">Hailing from the vibrant city of Mohali, I find joy in discovering new places, cultures, and experiences.</div>
+    </div>
+    <div class="slide">
+        <img src="ishita3.jpeg" width="80%" height="200%" alt="Travel">
+        <div class="text-container">Traveling isn't just a hobby for me—it's a way to see the world from different perspectives, meet incredible people, and gather stories that stay with me forever.</div>
+    </div>
+    <div class="slide">
+        <img src="https://digitalnomads.world/wp-content/uploads/2021/06/manali-digital-nomads.jpg" width="100%" height="100%" alt="Technology">
+        <div class="text-container">Whether it's a bustling city, serene mountains, or hidden gems off the beaten path, I love immersing myself in the beauty of the unknown.</div>
+        </div>
+    <div class="slide">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*P_H_UpQahH0juwQpXWXnpQ.jpeg" width="100%" height="100%" alt="Technology">
+        <div class="text-container">Beyond academics and adventures, I enjoy coding, problem-solving, and embracing creativity in all forms.</div></div>
+    </div>
+    </div>
+</div>
+</body>
+</html>
